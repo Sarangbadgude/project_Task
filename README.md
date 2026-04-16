@@ -4,12 +4,12 @@ A full-stack task management application built with React + ASP.NET Core Web API
 
 ## Screenshots
 
-![Screenshot 1](screenshots/Screenshot%202026-04-16%20at%2012.26.14PM.png)
-![Screenshot 2](screenshots/Screenshot%202026-04-16%20at%2012.26.41PM.png)
-![Screenshot 3](screenshots/Screenshot%202026-04-16%20at%2012.27.13PM.png)
-![Screenshot 4](screenshots/Screenshot%202026-04-16%20at%2012.27.34PM.png)
-![Screenshot 5](screenshots/Screenshot%202026-04-16%20at%2012.27.57PM.png)
-![Screenshot 6](screenshots/Screenshot%202026-04-16%20at%2012.28.32PM.png)
+![Screenshot 1](screenshots/Screenshot%202026-04-16%20at%2012.26.14%E2%80%AFPM.png)
+![Screenshot 2](screenshots/Screenshot%202026-04-16%20at%2012.26.41%E2%80%AFPM.png)
+![Screenshot 3](screenshots/Screenshot%202026-04-16%20at%2012.27.13%E2%80%AFPM.png)
+![Screenshot 4](screenshots/Screenshot%202026-04-16%20at%2012.27.34%E2%80%AFPM.png)
+![Screenshot 5](screenshots/Screenshot%202026-04-16%20at%2012.27.57%E2%80%AFPM.png)
+![Screenshot 6](screenshots/Screenshot%202026-04-16%20at%2012.28.32%E2%80%AFPM.png)
 
 ## Features
 
