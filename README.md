@@ -1,25 +1,37 @@
 # Project Task Board
 
-A full-stack task management application for managing projects and tasks — built with React, ASP.NET Core Web API, and SQLite.
+## Description
+
+A full-stack task management application where users can manage projects, tasks, and track progress using a dashboard and Kanban-style task board.
 
 ## Tech Stack
 
-| Layer    | Technology                          |
-|----------|-------------------------------------|
-| Frontend | React 18, React Router v6, Axios    |
-| Backend  | ASP.NET Core Web API (.NET 10)      |
-| Database | SQLite via Entity Framework Core    |
+- **Frontend:** React.js (React 18, React Router v6, Axios)
+- **Backend:** ASP.NET Core Web API (.NET 10)
+- **Database:** SQLite with Entity Framework Core
+
+## Repository Structure
+
+```
+project-task-board/
+├── frontend/        ← React app
+├── backend/         ← .NET Core API
+│   └── TaskBoard.Api/
+├── screenshots/
+└── README.md
+```
 
 ## Features
 
-- Create and manage projects
-- Add tasks with priority, status, and due dates
-- Filter and sort tasks
+- Create, update, and delete projects
+- Task management (CRUD operations)
+- Task status tracking (To Do, In Progress, Review, Done)
+- Kanban-style task board
+- Dashboard with task statistics (overdue, due this week, tasks by status)
+- Add comments to tasks
+- Filter and sort tasks by priority, status, due date
 - Paginated task list
-- Comments on tasks
-- Dashboard with statistics (overdue, due this week, tasks by status)
 - Global exception handling
-- Seed data included
 
 ## Screenshots
 
@@ -35,13 +47,13 @@ A full-stack task management application for managing projects and tasks — bui
 ![Task Details](screenshots/Screenshot%202026-04-16%20at%2012.27.57%E2%80%AFPM.png)
 ![Task Details](screenshots/Screenshot%202026-04-16%20at%2012.28.32%E2%80%AFPM.png)
 
-## Setup
+## Setup Instructions
 
 ### Prerequisites
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download)
 - [Node.js 18+](https://nodejs.org/)
-- `dotnet-ef` tool: `dotnet tool install --global dotnet-ef`
+- `dotnet tool install --global dotnet-ef`
 
 ### Backend
 
@@ -85,13 +97,19 @@ App runs on `http://localhost:3000`
 | DELETE | /api/tasks/{id}          | Delete task                   |
 
 ### Comments
-| Method | Endpoint                 | Description   |
-|--------|--------------------------|---------------|
-| GET    | /api/tasks/{id}/comments | List comments |
-| POST   | /api/tasks/{id}/comments | Add comment   |
-| DELETE | /api/comments/{id}       | Delete comment|
+| Method | Endpoint                 | Description    |
+|--------|--------------------------|----------------|
+| GET    | /api/tasks/{id}/comments | List comments  |
+| POST   | /api/tasks/{id}/comments | Add comment    |
+| DELETE | /api/comments/{id}       | Delete comment |
 
 ### Dashboard
 | Method | Endpoint       | Description    |
 |--------|----------------|----------------|
 | GET    | /api/dashboard | Get statistics |
+
+## Future Improvements
+
+- Drag and drop Kanban board
+- Authentication & user roles
+- Notifications
